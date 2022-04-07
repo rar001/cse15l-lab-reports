@@ -44,6 +44,7 @@ Another important command to know is `scp`. You use this command to copy files a
 2. Use the following command to copy it over: <p>`scp FILENAME.EXT cs15lsp22!!!@ieng6.ucsd.edu:~/`
 3. For our purposed I am working with a file called WhereAmI.java that pulls some basic information to be displayed. To run this file you would use the command `javac WhereAmI.java` followed by `java WhereAmI`.
 4. Doing so gives me the following output:
+
 ![scp](images/scp.png)
 
 ***You can transfer files from client to server!***
