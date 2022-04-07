@@ -14,8 +14,8 @@ This is to demonstrate the different basic Markdown syntax options that we learn
 2. **Bold**
 3. >Blockquote
 
-' Inline code ' 
+` Inline code `
 and 
-'''
+```
 an inline code block
-'''
+```
