@@ -41,9 +41,10 @@ Examples of some commands. Notice how the file path changes when using `cd perl5
 Another important command to know is `scp`. You use this command to copy files and other things over into the remote server. **Note**: This command is always run from the client! Use `exit` to exit the remote server.
 
 1. Take note of the name of the file you would like to move from your client to the remote server. 
-2. Use the following command to copy it over: <p>`scp FILENAME.EXT cs15lsp22!!!@ieng6.ucsd.edu:~/`</p>
+2. Use the following command to copy it over: \
+`scp FILENAME.EXT cs15lsp22!!!@ieng6.ucsd.edu:~/`
 3. For our purposed I am working with a file called WhereAmI.java that pulls some basic information to be displayed. To run this file you would use the command `javac WhereAmI.java` followed by `java WhereAmI`.
-4. Doing so gives me the following output:
+4. Doing so gives me the following output:  
 
 ![scp](images/scp.png)
 
