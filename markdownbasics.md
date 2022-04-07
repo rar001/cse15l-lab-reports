@@ -1,6 +1,5 @@
 # Markdown Basics
 This is to demonstrate the different basic Markdown syntax options that we learn in [CSE15L](https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule?authuser=0).
-![Thumbs Up](https://www.pngfind.com/pngs/m/86-867943_red-thumb-up-clip-art-at-clker-com.png)
 
 ## List of Syntax
 - *Italic*
@@ -19,3 +18,4 @@ and
 ```
 an inline code block
 ```
+![Thumbs Up](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkQASIbjgFX-TRe3s2BtLWN2PPvAgkMr2ixQ&usqp=CAU)
