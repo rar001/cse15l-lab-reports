@@ -48,8 +48,25 @@ Another important command to know is `scp`. You use this command to copy files a
 
 ![scp](images/scp.png)
 
-***You can transfer files from client to server!***
+***You can now transfer files from client to server!***
 
 ---
 ## Setting an SSH Key
+Entering your password over and over again gets tiring and impedes efficiency. We can bypass this with something called an SSH Key.
+
+1. On your client terminal (after exiting remote server), enter the following command:  
+`ssh-keygen`
+2. You should see a message prompting you to save the file. You can just save it to the path it displays.
+3. When prompted to enter a passphrase, simply press enter twice and you should be shown a pretty randomart image like so:  \
+![randomart](images/randomart.png)
+4. Now SSH into the remote server, and use the command:   
+`mkdir .ssh` and then `exit`
+5. On your client, use:  
+ `scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22!!!@ieng6.ucsd.edu:~/.ssh/authorized_keys`  
+ where `<user-name>` and `!!!` are your username and corresponding letters.
+
+ ***You can now ssh without entering a password everytime!***
+
+---
+## Optimize Remote Running
 
