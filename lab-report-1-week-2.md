@@ -38,7 +38,8 @@ Examples of some commands. Notice how the file path changes when using `cd perl5
 
 ---
 ## Moving Files with SCP
-Another important command to know is `scp`. You use this command to copy files and other things over into the remote server. **Note**: This command is always run from the client! Use `exit` to exit the remote server.
+Another important command to know is `scp`. You use this command to copy files and other things over into the remote server.   
+**Note**: This command is always run from the client! Use `exit` to exit the remote server.
 
 1. Take note of the name of the file you would like to move from your client to the remote server. 
 2. Use the following command to copy it over: \
