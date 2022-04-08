@@ -1,5 +1,5 @@
 # Lab Report Week 1
-![Week1](images/week1.jpeg)
+![Week1](images/goblinshark.png)
 
 ---
 ## Installing VSCode
@@ -69,4 +69,13 @@ Entering your password over and over again gets tiring and impedes efficiency. W
 
 ---
 ## Optimize Remote Running
+From what we've seen, going back and forth between client and server can be inefficient and nerve-wracking. In order to make this faster, you can chain together commands using `&&` for one line commands. You can also use `""` to run commands from the client on the server all in one go.
 
+For Example:  
+1. `ssh cs15lsp22!!!@ieng6.ucsd.edu "cd perl5"` would remote into the server and change directories to `perl5`, then exit.
+
+You could even play around and do something like this:  
+
+![whereami](images/whereami.png)
+
+***You have good foundation for terminal commands!***
