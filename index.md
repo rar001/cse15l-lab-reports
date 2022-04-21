@@ -5,3 +5,5 @@ Link to [Markdown Basics](https://rar001.github.io/cse15l-lab-reports/markdownba
 ## Lab Reports by Week
 [Week 1 Lab Report](https://rar001.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
 
+[Week 4 Lab Report](https://rar001.github.io/cse15l-lab-reports/lab-report-2-week-4.html)
+
