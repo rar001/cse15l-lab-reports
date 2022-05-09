@@ -1,5 +1,6 @@
 # Lab Report Week 6!
 ![title](/labreport3/title.png)
+
 ---
 
 ## Streamlining SSH Configuration
